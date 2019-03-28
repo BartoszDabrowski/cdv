@@ -1,0 +1,27 @@
+body{
+  background-color: aqua;
+  margin: 0;
+}
+table, tr, td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+td{
+  background-color: rgba(200, 60, 10,0.7);
+  color: #FFF;
+}
+.col{
+  background-color: green;
+}
+.flagi{
+  margin-top: 10px;
+}
+.column{
+  background-color: white;
+  color:black;
+}
+.row {
+  background-color: yellow;
+}

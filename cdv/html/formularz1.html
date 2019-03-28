@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formularz</title>
+  </head>
+  <body>
+    <form class="" action="#" method="post">
+      <label>Imię <input type="text" name="imie" placeholder="Imię" required></label><br>
+      <label>Nazwisko <input type="text" name="nazwisko" placeholder="Nazwisko" required></label><br>
+      <label>E-mail <input type="email" name="email" placeholder="E-mail" required></label><br>
+      <label>Mężczyzna <input type="radio" name="plec" value="m"> </label><br>
+      <label>Kobieta <input type="radio" name="plec" value="k"></label><br>
+      <label><input type="textarea" name="bbb" value=""></label><br>
+      <label>
+        <select name="miasto" selected="poznan">
+          <option value="poznan">Poznań</option>
+          <option value="warszawa">Warszawa</option>
+          <option value="krakow">Kraków</option>
+
+        </select><br>
+      </label>
+      <input type="reset" name="reset" value="Wyczyść">
+      <input type="submit" name="przycisk" value="Zapisz">
+    </form>
+  </body>
+</html>

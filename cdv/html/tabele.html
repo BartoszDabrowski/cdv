@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>tabele</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+
+    </table><hr>
+    <!-- table>.row*3>.col*5  //emmet -->
+    <table>
+      <tr class="row">
+        <td class="col">komórka 1</td>
+        <td class="col">komórka 2</td>
+        <td class="col">komórka 3</td>
+        <td class="col">komórka 4</td>
+        <td class="col">komórka 5</td>
+      </tr>
+      <tr class="row">
+        <td class="col">komórka 6</td>
+        <td class="col">komórka 7</td>
+        <td class="col">komórka 8</td>
+        <td class="col">komórka 9</td>
+        <td class="col">komórka 10</td>
+      </tr>
+      <tr class="row">
+        <td class="col">komórka 11</td>
+        <td class="col">komórka 12</td>
+        <td class="col">komórka 13</td>
+        <td class="col">komórka 14</td>
+        <td class="col">komórka 15</td>
+      </tr>
+    </table>
+    <hr>
+    <!-- table>.wiersz*2>.kolumna*2 -->
+    <table class="flagi">
+      <tr class="wiersz">
+        <td class="kolumna"><img src='img/flaga-niemcy.png'></td>
+        <td class="kolumna"><img src='img/flaga-polska.png'></td>
+      </tr>
+      <tr class="wiersz">
+        <td class="kolumna"><img src='img/flaga-rosja.png'></td>
+        <td class="kolumna"><img src='img/eng.png'></td>
+      </tr>
+    </table>
+    <hr>
+    <table class="flagi">
+      <tr class="row">
+        <th class="col"></th>
+        <td class="col">Imię</td>
+        <td class="col">Nazwisko</td>
+        <td class="col">Miasto</td>
+      </tr>
+      <tr class="row">
+        <th class="col">Osoba 1</th>
+        <td class="col">Julia</td>
+        <td class="col">Nowak</td>
+        <td class="col">Poznań</td>
+      </tr>
+      <tr class="row">
+        <th class="col">Osoba 2</th>
+        <td class="col">Adam</td>
+        <td class="col">Kowalski</td>
+        <td class="col">Stargard</td>
+      </tr>
+    </table class="flagi">
+    <hr>
+    <table>
+      <tr>
+        <td class='column'colspan="4">1</td>
+      </tr>
+      <tr>
+        <td class='column'colspan="2">2</td>
+        <td class='column'colspan="2">3</td>
+      </tr>
+      <tr>
+        <td class="row"rowspan="2">4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class='column'colspan="3">8</td>
+      </tr>
+    </table>
+  </body>
+</html>
